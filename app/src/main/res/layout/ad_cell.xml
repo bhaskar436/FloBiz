@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp10"
+    android:layout_marginTop="@dimen/dp12"
+    android:layout_marginRight="@dimen/dp10"
+    android:layout_marginBottom="@dimen/dp18"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+
+    <ImageView
+        android:id="@+id/iv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp200"
+        android:layout_margin="@dimen/dp4"
+        android:contentDescription="@string/ad"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/ad_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_ad"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:padding="@dimen/dp4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp20" />
+
+    <ImageView
+        android:id="@+id/iv_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/remove"
+        android:src="@drawable/ic_baseline_cancel_24" />
+</RelativeLayout>

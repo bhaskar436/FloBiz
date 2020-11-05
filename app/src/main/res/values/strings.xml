@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flo Biz</string>
+    <string name="movie_image">movie image</string>
+    <string name="search">Search</string>
+    <string name="ad">Ad</string>
+    <string name="remove">Remove</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PostersSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@drawable/bottom_border</item>
+        <item name="closeIcon">@drawable/ic_baseline_close_24</item>
+        <item name="searchIcon">@drawable/ic_baseline_search_24</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+</resources>
